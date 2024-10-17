@@ -1,0 +1,96 @@
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.right-nav{
+    display: flex;
+    margin-right: 5%;
+    gap: 5rem;
+}
+
+.navbar.scrolled{
+  box-shadow:  0 1px 2px 0 rgba(175, 175, 175, 0.2);
+  transition: 0.2s ease-in-out;
+}
+
+.text p{
+    color: rgb(7, 23, 48);
+    text-decoration: none;
+    transition: ease 300ms;
+}
+.link-text{
+    text-decoration: none;
+}
+.text p:hover{
+    color:rgba(7, 23, 48, 0.7)
+}
+
+
+.logo img{
+    height: 6rem;
+}
+.logo{
+    margin-left: 2%;
+}
+
+.text{
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(7, 23, 48);
+}
+
+.tokopedia{
+    width: 5rem;
+    padding: 0.8rem 0 0 0;
+}
+.shopee{
+    width: 4rem;
+    padding: 0.6rem 0 0 0;
+}
+
+.tokopedia:hover, .shopee:hover{
+    transform: scale(1.2);
+    transition: ease 0.3s;
+}
+
+@media screen and (max-width: 431px){
+    .navbar{
+        /* justify-content: unset; */
+    }
+    .logo img{
+        height: 4rem;
+        padding-top: 0.2rem;
+
+        }
+    
+        .text{
+            align-items: center;
+            display: flex;
+            gap: 1rem;
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+        .right-nav{
+            gap: 2rem;
+        }
+        
+        .tokopedia{
+            width: 3rem;
+            padding: 0.5rem 0 0 0;
+        }
+        .shopee{
+            width: 2.5rem;
+            padding: 0.25rem 0 0 0;
+        }
+}
