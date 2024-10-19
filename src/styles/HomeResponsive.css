@@ -379,7 +379,8 @@
         flex-direction: column;
         gap: 2rem;
         align-items: center;
-        margin-top: 1rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
     }
     .learn-wrap img{
         display: none;
@@ -395,7 +396,7 @@
 
     .learn-text p{
         font-size: 0.6rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
     }
 
     .learn-btn{
@@ -414,5 +415,11 @@
         padding: 0.3rem 3rem;
         background-color: rgb(237, 179, 66);
     }
+    
+}
+@media screen and (max-width: 395px){
+        .text-kiri{
+            gap: 0.8rem;
+        }
 }
 

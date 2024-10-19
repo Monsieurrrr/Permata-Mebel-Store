@@ -79,6 +79,7 @@ padding: 1.25rem 6.25rem 0 6.25rem;
 @media screen and (max-width:431px){
     footer{
         margin-bottom: 10px;
+        margin-top: 1rem;
     }
     .footer-1{
         padding: 1.25rem 2rem 0 2rem;
